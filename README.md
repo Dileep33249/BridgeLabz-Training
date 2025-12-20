@@ -46,15 +46,15 @@ BridgeLabz-Training/
 | **19-Dec-2025** | Refactored Code (Programming Elements) & Submitted Level 1 & 2 Solutions | ✅ Submitted |
 | **20-Dec-2025** | Mastered Control Flow & Submitted Level 1, 2, and 3 Assignments | ✅ Submitted |
 
-🔗 Module Directories & Quick Links
+<h1>🔗 Module Directories & Quick Links</h1>
 
 Access specific coding modules and assignment submissions here:
 
-<h1>Programming Elements (Fundamentals)</h1>
+Programming Elements (Fundamentals)
 📂 Repo Link:https://github.com/Dileep33249/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements
 Topics: Data types, operators, basic input/output.
 
-<h1>Control Flow (Logic Building)</h1>
+Control Flow (Logic Building)
 📂 Repo Link:https://github.com/Dileep33249/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/control-flows
 Topics: If-else, loops, switch cases, level 1-3 problems.
 
