@@ -20,48 +20,52 @@ Author: Dileep Kumar Mishra
 
 ```
 BridgeLabz-Training/
-|
-+-- core-java-practice/
-|   |
-|   +-- gcr-codebase/
-|   |   |
-|   |   +-- programming-elements/
-|   |   |
-|   |   +-- control-flow/
-|   |
-|   +-- leet-code-codebase/
-|   |
-|   +-- scenario-based/
-|
-+-- README.md
+│
+├── core-java-practice/        
+│   │
+│   ├── gcr-codebase/
+│   │   ├── programming-elements/
+│   │   └── control-flow/
+│   │
+│   ├── leet-code-codebase/
+│   │
+│   └── scenario-based/
+│
+├── oops-practice/              
+│   │
+│   ├── gcr-codebase/
+│   │   ├── inheritance/
+│   │   ├── encapsulation/
+│   │   └── polymorphism/
+│   │
+│   ├── scenario-based/
+│   │
+│   └── leet-code-codebase/
+│
+├── reviews/                  
+
 ```
 
 <h1>📅 Daily Progress Log</h1>
 
-| Date | Activity | 
-| :--- | :--- | 
-| **16-Dec-2025** | Kickoff Session |
-| **17-Dec-2025** | Understanding the program structure | 
-| **18-Dec-2025** | Learned Fundamentals & Submitted **Programming Elements** Assignment |
-| **19-Dec-2025** | Refactored Code (Programming Elements) & Submitted Level 1 & 2 Solutions |
-| **20-Dec-2025** | Mastered Control Flow & Submitted Level 1, 2, and 3 Assignments | 
+| Date | Activity | Link |
+| :--- | :--- | :--- |
+| **16-Dec-2025** | Kickoff Session | — |
+| **17-Dec-2025** | Understanding the program structure | — |
+| **18-Dec-2025** | Learned Fundamentals & Submitted **Programming Elements** Assignment |[Link](https://github.com/Dileep33249/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements)|
+| **19-Dec-2025** | Refactored Code (Programming Elements) & Submitted Level 1 & 2 Solutions | — |
+| **20-Dec-2025** | Mastered Control Flow & Submitted Level 1, 2, and 3 Assignments |[Link](https://github.com/Dileep33249/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/control-flows)|
+| **23-Dec-2025** | Practiced **Java Methods and submited the assignment** | [Link](https://github.com/Dileep33249/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/java-methods) |
+| **24-Dec-2025** | Practiced **Java String and submited assignment** Concepts |[Link](https://github.com/Dileep33249/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/java-string) |
+| **25-Dec-2025** | Classes & Objects, Constructors, Static & Final Keywords | [Link](https://github.com/Dileep33249/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/constructors) |
+|**26-Dec-2025** | practiced inheritence problems and submitted assignment | [Link](https://github.com/Dileep33249/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/inheritance) |
+| **27-Dec-2025** | Object-Oriented Design Principles | [Link](https://github.com/Dileep33249/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/object-oriented-design) |
+| **28-Dec-2025** | Encapsulation, Interfaces & Abstraction | [Link](https://github.com/Dileep33249/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/encapsulation-interface-abstraction-interface) |
 
-<h1>🔗 Module Directories & Quick Links</h1>
-
-Access specific coding modules and assignment submissions here:
-
-Programming Elements (Fundamentals)
-📂 Repo Link:https://github.com/Dileep33249/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements
-Topics: Data types, operators, basic input/output.
-
-Control Flow (Logic Building)
-📂 Repo Link:https://github.com/Dileep33249/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/control-flows
-Topics: If-else, loops, switch cases, level 1-3 problems.
 
 <h1>🧠 Key Concepts Covered</h1>
 
-Java Basics: Variables, Data Types, Operators, Input/Output (Scanner, System.out)
-Control Flow: if, else, switch ,Loops: for, while, do-while,Methods & Modularity: Single-responsibility methods, clean and readable logic,Number Theory Problems: Prime Numbers, Armstrong, Harshad, Abundant Numbers, Factors and divisibility checks.
+This repository covers core Java concepts including variables, data types, operators, and input/output. It includes control flow statements, loops, and modular method design. String handling, classes, objects, constructors, and the use of static and final keywords are practiced extensively. Advanced OOP concepts such as inheritance, encapsulation, polymorphism, interfaces, and abstraction are implemented through problem-solving. Object-oriented design principles are applied to build clean, maintainable, and scalable Java programs.
 
 <h1>▶️ How to Run Java Programs</h1>
 Compile and Run a Single File:
