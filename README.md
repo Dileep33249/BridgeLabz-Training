@@ -1,4 +1,4 @@
-<h1> BridgeLabz Training Program – Core Java Programming</h1>
+<h1> BridgeLabz Training Program </h1>
 
 Welcome to the BridgeLabz Core Java Training Repository.
 This repository documents a structured learning journey in Core Java, covering programming fundamentals, control flow, and problem-solving through hands-on practice.
