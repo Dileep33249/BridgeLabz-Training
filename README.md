@@ -26,7 +26,11 @@ BridgeLabz-Training/
 │   ├── gcr-codebase/
 │   │   ├── programming-elements/
 │   │   └── control-flow/
-│   │
+│   │   ├── extras/
+|   |   ├── java-arrays/
+|   |   ├── java-string/
+|   |   └── java-methods/
+|   |
 │   ├── leet-code-codebase/
 │   │
 │   └── scenario-based/
@@ -34,16 +38,40 @@ BridgeLabz-Training/
 ├── oops-practice/              
 │   │
 │   ├── gcr-codebase/
-│   │   ├── inheritance/
-│   │   ├── encapsulation/
-│   │   └── polymorphism/
-│   │
+│   │   ├── class-and-object/
+│   │   ├── constructors/
+│   │   └── encapsulation-interface-abstraction-interface/
+│   │   ├── static-final-keywords/
+│   │   └── object-oriented-design/
+|   |   ├── inheritance/       
 │   ├── scenario-based/
 │   │
 │   └── leet-code-codebase/
 │
-├── reviews/                  
-
+├── dsa-practice/              
+│   │
+│   ├── gcr-codebase/
+│   │   ├── linearsearch-binarysearch/
+│   │   ├── inkedlist/
+│   │   └── sorting/
+│   │   ├── stack-queue-hashmap/
+│   │   └── time-and-space-complexity/    
+│   ├── scenario-based/
+│   │
+│   └── leet-code-codebase/
+│
+├── collection-practice/              
+│   │
+│   ├── gcr-codebase/
+│   │   ├── generics/
+│   │   ├── collection/
+│   │   └── stream/
+│   │   ├── stack-queue-hashmap/            
+│   ├── scenario-based/
+│   │
+│   └── leet-code-codebase/
+|
+├── review/ 
 ```
 
 <h1>📅 Daily Progress Log</h1>
