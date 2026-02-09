@@ -1,0 +1,26 @@
+package multi_threading;
+import java.util.Random;
+
+class FileDownloader extends Thread {
+
+    private String fileName;
+    private Random random = new Random();
+
+    public FileDownloader(String fileName) {
+        this.fileName = fileName;
+    }
+
+    @Override
+    public void run() {
+        for (int progress = 0; progress <= 100; progress += 25) {
+            System.out.println("[" + Thread.currentThread().getName() +
+                    "] Downloading " + fileName + ": " + progress + "%");
+
+            try {
+                Thread.sleep(500 + random.nextInt(500));
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+}
