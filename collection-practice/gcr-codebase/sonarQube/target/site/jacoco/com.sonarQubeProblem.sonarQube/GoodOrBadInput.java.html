@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>GoodOrBadInput.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">testing</a> &gt; <a href="index.source.html" class="el_package">com.sonarQubeProblem.sonarQube</a> &gt; <span class="el_source">GoodOrBadInput.java</span></div><h1>GoodOrBadInput.java</h1><pre class="source lang-java linenums">package com.sonarQubeProblem.sonarQube;
+
+<span class="fc" id="L3">public class GoodOrBadInput {</span>
+   
+	public String inputChecker(int num) {
+<span class="fc bfc" id="L6" title="All 2 branches covered.">		if(num &lt; 0) {</span>
+<span class="fc" id="L7">			return &quot;Bad input&quot;;</span>
+		} else {
+<span class="fc" id="L9">			return &quot;Good input&quot;;</span>
+		}
+	}
+
+	public String validateRange(int num, int min, int max) {
+<span class="fc bfc" id="L14" title="All 4 branches covered.">		if (num &lt; min || num &gt; max) {</span>
+<span class="fc" id="L15">			return &quot;Out of range&quot;;</span>
+		}
+<span class="fc" id="L17">		return &quot;In range&quot;;</span>
+	}
+
+	public boolean isPrime(int num) {
+<span class="fc bfc" id="L21" title="All 2 branches covered.">		if (num &lt;= 1) {</span>
+<span class="fc" id="L22">			return false;</span>
+		}
+<span class="fc bfc" id="L24" title="All 2 branches covered.">		if (num &lt;= 3) {</span>
+<span class="fc" id="L25">			return true;</span>
+		}
+<span class="fc bfc" id="L27" title="All 4 branches covered.">		if (num % 2 == 0 || num % 3 == 0) {</span>
+<span class="fc" id="L28">			return false;</span>
+		}
+<span class="pc bpc" id="L30" title="1 of 2 branches missed.">		for (int i = 5; i * i &lt;= num; i += 6) {</span>
+<span class="nc bnc" id="L31" title="All 4 branches missed.">			if (num % i == 0 || num % (i + 2) == 0) {</span>
+<span class="nc" id="L32">				return false;</span>
+			}
+		}
+<span class="fc" id="L35">		return true;</span>
+	}
+
+	public int sumOfDigits(int num) {
+<span class="fc" id="L39">		int sum = 0;</span>
+<span class="fc" id="L40">		int n = Math.abs(num);</span>
+<span class="fc bfc" id="L41" title="All 2 branches covered.">		while (n &gt; 0) {</span>
+<span class="fc" id="L42">			sum += n % 10;</span>
+<span class="fc" id="L43">			n /= 10;</span>
+		}
+<span class="fc" id="L45">		return sum;</span>
+	}
+
+	public boolean isEven(int num) {
+<span class="fc bfc" id="L49" title="All 2 branches covered.">		return num % 2 == 0;</span>
+	}
+
+	public String getNumberType(int num) {
+<span class="fc bfc" id="L53" title="All 2 branches covered.">		if (num == 0) {</span>
+<span class="fc" id="L54">			return &quot;Zero&quot;;</span>
+<span class="fc bfc" id="L55" title="All 4 branches covered.">		} else if (num &gt; 0 &amp;&amp; isEven(num)) {</span>
+<span class="fc" id="L56">			return &quot;Positive Even&quot;;</span>
+<span class="fc bfc" id="L57" title="All 2 branches covered.">		} else if (num &gt; 0) {</span>
+<span class="fc" id="L58">			return &quot;Positive Odd&quot;;</span>
+<span class="fc bfc" id="L59" title="All 2 branches covered.">		} else if (isEven(num)) {</span>
+<span class="fc" id="L60">			return &quot;Negative Even&quot;;</span>
+		} else {
+<span class="fc" id="L62">			return &quot;Negative Odd&quot;;</span>
+		}
+	}
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>
